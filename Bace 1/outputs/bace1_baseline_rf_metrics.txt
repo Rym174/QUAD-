@@ -1,0 +1,9 @@
+Dataset: BACE1
+Input CSV: C:\Users\poula\Desktop\quad redo\Bace 1\bace1_clean_ecfp4_2048.csv
+Split: 80/20, seed=42
+Model: RandomForestRegressor
+Params: {'n_estimators': 500, 'random_state': 123, 'n_jobs': -1}
+
+R2:   0.6378
+RMSE: 0.8013
+MAE:  0.5769
